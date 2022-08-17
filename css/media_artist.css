@@ -164,6 +164,10 @@
         flex-direction: column;
         gap: 20px;
     }
+    
+    .input_bock input {
+        width: auto;
+    }
 }
 
 @media (max-width:320px) {
