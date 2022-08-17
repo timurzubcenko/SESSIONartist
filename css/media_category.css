@@ -195,6 +195,10 @@
     .cards {
         grid-template-columns: 1fr;
     }
+    
+    .input_bock input {
+        width: auto;
+    }
 }
 
 @media (max-width:320px) {
