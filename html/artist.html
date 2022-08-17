@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/artist.css">
+    <link rel="stylesheet" href="../css/media_artist.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;600&family=Rubik&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="main_header">
+            <header class="header container">
+                <a href="../index.html">
+                    <div class="logo">
+                        <img src="../img/Group.png" alt="">
+                        <h3>SESSION <br>
+                            artist</h3>
+                    </div>
+                </a>
+                <div class="input">
+                    <input class="input_search" type="text" placeholder="Search">
+                    <div class="icon_input">
+                        <i class="bi bi-search"></i>
+                        <i class="bi bi-x-lg"></i>
+                    </div>
+                </div>
+                <div class="header_burger" onclick="clickBurger()">
+                    <span></span>
+                </div>
+                <div class="header_menu">
+                    <div class="btns">
+                        <div class="btn" id="btn_popup" onclick="clickClose()">
+                            Login in
+                        </div>
+                        <div class="btn green" id="btn_popup_register" onclick="clickCloseRegister()">
+                            Register
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <section class="section">
+            <div class="interior_section container">
+                <div class="wrapper_circles">
+                    <div class="main_circle_green">
+                        <div class="circle_green"></div>
+                    </div>
+                    <div class="main_circle_orange">
+                        <div class="circle_orange"></div>
+                    </div>
+                </div>
+                <h1>@nickportman</h1>
+                <div class="content">
+                    <div class="artist">
+                        <img src="../img/Rectangle 8.png" alt="">
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.” </p>
+                        <div class="btn green">
+                            Send message
+                        </div>
+                    </div>
+                    <div class="main_info_artist">
+                        <ul class="list">
+                            <li>Standart</li>
+                            <li>Premium</li>
+                            <li>Elite</li>
+                        </ul>
+                        <div class="info_artist">
+                            <div class="top">
+                                <h2>10$</h2>
+                                <h3>60 sec</h3>
+                                <p>1 revision</p>
+                            </div>
+                            <div class="bottom">
+                                <ul>
+                                    <li><i class="bi bi-check2"></i>text</li>
+                                    <li class="active_link"><i class="bi bi-check2"></i>hq audio file</li>
+                                    <li class="active_link"><i class="bi bi-check2"></i>mixing and mastering</li>
+                                    <li><i class="bi bi-check2"></i>text</li>
+                                </ul>
+                                <div class="btn">
+                                    Checkout
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews">
+                    <div class="interior_reviews">
+                        <div class="title_reviews">
+                            <h2>Reviews (100)</h2>
+                            <div class="rang">
+                                <h2>5.0</h2>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                        <div class="coments">
+                            <div class="coment">
+                                <div class="avtor">
+                                    <nav class="logo">
+                                        M
+                                    </nav>
+                                    <div class="avtor_name">
+                                        <div class="name">
+                                            <h3>marlonruiz300</h3>
+                                            <div class="rang">
+                                                <h3>5.0</h3>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                        <div class="data">
+                                            20.06.2022
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="coment">
+                                <div class="avtor">
+                                    <nav class="logo">
+                                        M
+                                    </nav>
+                                    <div class="avtor_name">
+                                        <div class="name">
+                                            <h3>marlonruiz300</h3>
+                                            <div class="rang">
+                                                <h3>5.0</h3>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                        <div class="data">
+                                            20.06.2022
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="coment">
+                                <div class="avtor">
+                                    <nav class="logo">
+                                        M
+                                    </nav>
+                                    <div class="avtor_name">
+                                        <div class="name">
+                                            <h3>marlonruiz300</h3>
+                                            <div class="rang">
+                                                <h3>5.0</h3>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                        <div class="data">
+                                            20.06.2022
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="coment">
+                                <div class="avtor">
+                                    <nav class="logo">
+                                        M
+                                    </nav>
+                                    <div class="avtor_name">
+                                        <div class="name">
+                                            <h3>marlonruiz300</h3>
+                                            <div class="rang">
+                                                <h3>5.0</h3>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                        <div class="data">
+                                            20.06.2022
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="btns_page">
+                                <div class="btn_page">
+                                    1
+                                </div>
+                                <div class="btn_page active">
+                                    2
+                                </div>
+                                <div class="btn_page next">
+                                    <i class="bi bi-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="interior_footer container">
+                <ul>
+                    <li>Modile App</li>
+                    <li>Community</li>
+                    <li>Company</li>
+                </ul>
+                <div class="logo">
+                    <img src="../img/Group.png" alt="">
+                    <h3>SESSION <br>
+                        artist</h3>
+                </div>
+                <ul class="ul_2">
+                    <li>Help desk</li>
+                    <li>Blog </li>
+                    <li>Resources </li>
+                </ul>
+            </div>
+            <p>© 2022 Session artist All rights reserved</p>
+        </footer>
+
+    </div>
+
+    <div class="main_popup hidden">
+        <div class="popup">
+            <div class="close" onclick="clickClosePopup()">
+                <span></span>
+            </div>
+            <h2>Login in</h2>
+            <div class="input_bock">
+                <input type="text" placeholder="Enter your email">
+                <input type="text" placeholder="Choose a Password">
+            </div>
+            <div class="btn green">
+                Login in
+            </div>
+        </div>
+    </div>
+
+    <div class="main_popup_2 hidden">
+        <div class="popup">
+            <div class="close" onclick="clickClosePopup2()">
+                <span></span>
+            </div>
+            <h2>Register</h2>
+            <div class="input_bock">
+                <input type="text" placeholder="Enter your email">
+                <input type="text" placeholder="Choose a Username">
+                <input type="text" placeholder="Choose a Password">
+            </div>
+            <div class="btn green">
+                Join
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/artist_script.js"></script>
+</body>
+
+</html>
